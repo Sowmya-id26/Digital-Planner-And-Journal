@@ -1,84 +1,72 @@
-# 🧠 Digital Planner and Journal
+Digital Planner and Journal
 
-A full-stack productivity web application that helps users manage daily tasks and maintain personal journal entries in one place.
-This project demonstrates complete CRUD operations, authentication, API integration, and modern UI design.
+## 📌 Project Description
+
+Digital Planner and Journal is a full-stack productivity web application that allows users to manage daily tasks and maintain personal journal entries in a secure and organized way.
+
+The application provides authentication, task management, and date-based journaling with a clean and responsive user interface.
+
+This project demonstrates frontend-backend integration, REST API usage, authentication handling, and full CRUD operations.
 
 ---
 
-## 📌 Features
+## 🚀 Features
 
-* ✅ User Authentication (Login / Signup)
-* 📝 Create, Edit, Delete Tasks
-* 📅 Write Journal Entries by Date
+* 🔐 User Authentication (Register / Login)
+* 📝 Add, Edit, Delete Tasks
+* 📅 Create Journal Entries by Date
 * 🗂️ View Previous Journal Records
-* 🔐 Secure Backend API
-* 📱 Responsive UI Design
-* ⚡ Fast performance using Vite
+* 🔄 Real-time Data Sync with Backend API
+* 📱 Responsive and Clean UI
+* ⚡ Fast Build using Vite
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack Used
 
 ### Frontend
 
 * React (Vite)
 * React Router DOM
 * Tailwind CSS
-* Lucide React Icons
 * Axios
+* Lucide React Icons
 
 ### Backend
 
 * Node.js
 * Express.js
-* MongoDB / Supabase (Update based on what you used)
+* MongoDB / Supabase (Update based on your backend)
 * JWT Authentication
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Installation Steps
 
-```
-Digital-Planner-and-Journal/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── services/
-│   └── package.json
-│
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   └── server.js
-│
-└── README.md
-```
-
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/digital-planner-and-journal.git
-cd digital-planner-and-journal
+cd digital-planner-and-journal/frontend
 ```
 
 ---
 
-### 2️⃣ Setup Frontend
+### 2️⃣ Install Dependencies
 
 ```bash
-cd frontend
 npm install
+```
+
+---
+
+### 3️⃣ Run the Application
+
+```bash
 npm run dev
 ```
 
-Frontend will run on:
+Frontend runs on:
 
 ```
 http://localhost:5173
@@ -86,77 +74,24 @@ http://localhost:5173
 
 ---
 
-### 3️⃣ Setup Backend
+## 🌍 Deployment Link
 
-```bash
-cd backend
-npm install
-npm start
-```
+Frontend Live Link:https://poetic-praline-b5f821.netlify.app/login
 
-Backend will run on:
 
-```
-http://localhost:5000
-```
+## 🔗 Backend API Link
 
----
+Backend Base URL:https://poetic-praline-b5f821.netlify.app/login
 
-## 🔐 Environment Variables
 
-Create a `.env` file inside the backend folder:
+## 📸 Screenshots
 
-```
-PORT=5000
-MONGO_URI=your_database_connection_string
-JWT_SECRET=your_secret_key
-```
+### 🏠 Dashboard Page:<img width="1725" height="783" alt="Screenshot 2026-02-28 224311" src="https://github.com/user-attachments/assets/dc5b53c6-b70f-416b-9cd1-fc02f82d23b7" />
 
-If using Supabase:
+### 🔐 Login Page:<img width="1743" height="796" alt="Screenshot 2026-02-28 223940" src="https://github.com/user-attachments/assets/416c56c9-c230-45bb-84dd-98ed307c61ec" />
 
-```
-SUPABASE_URL=your_supabase_url
-SUPABASE_KEY=your_supabase_key
-```
 
----
-
-## 📡 API Endpoints
-
-### Authentication
-
-* `POST /api/auth/register`
-* `POST /api/auth/login`
-
-### Tasks
-
-* `GET /api/tasks`
-* `POST /api/tasks`
-* `PUT /api/tasks/:id`
-* `DELETE /api/tasks/:id`
-
-### Journal
-
-* `GET /api/journal`
-* `POST /api/journal`
-* `DELETE /api/journal/:id`
-
----
-
-## 🎯 Future Enhancements
-
-* 🌙 Dark Mode Toggle
-* 🔔 Task Reminder Notifications
-* 📊 Productivity Analytics Dashboard
-* 📱 Mobile App Version
-
----
-
-## 👨‍💻 Author
-
-**Macharla Brahmachary**
+**M.Sowmya**
 B.Tech Final Year Student
-Aspiring Cybersecurity Analyst
-
----
+Aspiring Fullstack developer
 
